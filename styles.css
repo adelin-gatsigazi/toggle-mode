@@ -7,7 +7,16 @@ body {
   background: #343232;
 }
 .light-mode {
-  background-color: rgb(252, 250, 250);
-  width: 390px;
-  height: 844px;
+  background-color: #ffff;
+  width: 320px;
+  height: 544px;
+}
+#img-light {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: auto;
+  flex-direction: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
 }
