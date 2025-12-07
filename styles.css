@@ -6,6 +6,7 @@ body {
   align-items: center;
   background: #343232;
 }
+
 .light-mode {
   background-color: #ffff;
   width: 320px;
@@ -16,16 +17,46 @@ body {
   position: absolute;
   width: 130px;
   height: 130px;
-  top: 38%;
-  left: 50%;
+  top: 40%;
+  left: 36%;
   transform: translate(-50%, -50%);
 }
 #text-light {
-  
-  font-weight: 200;
-  font-style: SemiBold;
-  font-size: 30px;
-  
-  line-height: 100%;
-  letter-spacing: 0%;
+  display: grid;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 270px;
+}
+.page {
+  display: flex;
+}
+.dark-mode {
+  display: flex;
+  margin-left: 40px;
+  background-color: #111111;
+  width: 320px;
+  height: 544px;
+}
+#img-dark {
+  display: grid;
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: 40%;
+  right: 25.5%;
+  transform: translate(-50%, -50%);
+}
+#text-dark {
+  display: grid;
+  text-align: center;
+  color: #ffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 270px;
+  margin-left: 100px;
 }
