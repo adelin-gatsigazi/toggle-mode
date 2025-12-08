@@ -8,17 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
-    <div class="light-mode">
+    <div class="light mode">
         <img id="img-light" 
         src="images/Light-mode sun.gif" 
         alt="light-mode">
         <p id="text-light">Light Mode</p>
+        <label class="switch light">
+            <input type="checkbox">
+            <span class="slider round light"></span>
+        </label>
     </div>
     <div class="dark-mode">
         <img id="img-dark" 
         src="images/dark-mode moon.gif" 
         alt="dark-mode">
         <p id="text-dark">Dark Mode</p>
+        <label class="switch dark">
+            <input type="checkbox" checked>
+            <span class="slider round dark"></span>
+        </label>
     </div>
 </body>
 <script src="script.js"></script>
