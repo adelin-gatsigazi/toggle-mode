@@ -93,8 +93,8 @@ body {
   right: 0.9em;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .slider:before {
@@ -105,8 +105,8 @@ body {
   left: 7px;
   bottom: 8px;
   background-color: #ffff;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 input:checked + .slider {
