@@ -9,8 +9,8 @@ body {
 
 .light.mode {
   background-color: #ffff;
-  width: 320px;
-  height: 544px;
+  width: 20%;
+  height: 65%;
 }
 #img-light {
   display: grid;
@@ -37,8 +37,8 @@ body {
   display: flex;
   margin-left: 40px;
   background-color: #111111;
-  width: 320px;
-  height: 544px;
+  width: 25%;
+  height: 65%;
 }
 #img-dark {
   display: flex;
